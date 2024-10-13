@@ -104,49 +104,64 @@ function getWebviewContent(palette: { [key: string]: string[] }) {
       const shades = palette[category]
         .map(
           (color) => `
-        <div style="background-color: ${color}; width: 50px; height: 50px; border-radius: 5px; margin: 5px;"></div>
-        <button onclick="copyToClipboard('${color}')">Copy</button>
-      `
+		  <div style="position: relative; display: flex; align-items: center; margin: 5px;">
+			<div style="background-color: ${color}; width: 70px; height: 70px; border-radius: 5px; margin-right: 5px; border: 1px solid #ccc;"></div>
+			<button style="padding: 5px; cursor: pointer;" onclick="copyToClipboard('${color}')">Copy ${color}</button>
+		  </div>
+		`
         )
         .join("");
 
       return `
-        <div style="margin: 10px; padding: 10px; border: 1px solid #ccc;">
-          <h3>${category}</h3>
-          <div style="display: flex; align-items: center; gap: 10px;">
-            ${shades}
-          </div>
-        </div>
-      `;
+		  <div style="margin: 10px; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+			<h3 style="margin: 0; color: #f0f0f0;">${category}</h3>
+			<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+			  ${shades}
+			</div>
+		  </div>
+		`;
     })
     .join("");
 
   return `
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Color Palette</title>
-      <style>
-        body { font-family: Arial, sans-serif; }
-        div { display: flex; align-items: center; gap: 10px; }
-        button { padding: 5px; cursor: pointer; }
-      </style>
-    </head>
-    <body>
-      <h2>Generated Color Palette</h2>
-      ${paletteHtml}
-      <script>
-        function copyToClipboard(color) {
-          navigator.clipboard.writeText(color).then(() => {
-            alert("Color " + color + " copied to clipboard!");
-          });
-        }
-      </script>
-    </body>
-    </html>
-  `;
+	  <!DOCTYPE html>
+	  <html lang="en">
+	  <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Color Palette</title>
+		<style>
+		  body { 
+			font-family: Arial, sans-serif; 
+			background-color: #1e1e1e; /* Dark background */
+			color: #ffffff; /* Light text */
+		  }
+		  h2 { color: #ffffff; }
+		  button { 
+			padding: 5px; 
+			cursor: pointer; 
+			background-color: transparent; 
+			color: white; 
+			border: none; 
+			border-radius: 5px; 
+		  }
+		  button:hover { background-color: #6a6a6a; }
+		  .color-box { display: inline-block; margin: 5px; border: 1px solid #ccc; }
+		</style>
+	  </head>
+	  <body>
+		<h2>Generated Color Palette</h2>
+		${paletteHtml}
+		<script>
+		  function copyToClipboard(color) {
+			navigator.clipboard.writeText(color).then(() => {
+			  alert("Color " + color + " copied to clipboard!");
+			});
+		  }
+		</script>
+	  </body>
+	  </html>
+	`;
 }
 
 // This method is called when your extension is deactivated
