@@ -12,7 +12,6 @@ export function activate(context: vscode.ExtensionContext) {
         })
         .then((color) => {
           if (color) {
-            // Validate and convert color input to hex
             const hexColor = chroma.valid(color) ? chroma(color).hex() : null;
             if (hexColor) {
               generateColorPalette(hexColor);
