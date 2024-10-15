@@ -48,5 +48,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 - [Chroma.js](https://gka.github.io/chroma.js/) for color manipulation.
 
 ```bash
-ashd
-```
+asbc
