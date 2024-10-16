@@ -31,7 +31,8 @@
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src",
-    "test": "vscode-test"
+    "test": "vscode-test",
+    "publish": "npm version patch && vsce publish"
   },
   "devDependencies": {
     "@types/chroma-js": "^2.4.4",
