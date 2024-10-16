@@ -2,13 +2,19 @@
   "name": "palatte",
   "displayName": "color palatte generator",
   "description": "generate palattes using single shades",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "publisher": "pratikkodape",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shoto87/color-palatte-extension-for-vs-code"
+  },
   "engines": {
     "vscode": "^1.94.0"
   },
   "categories": [
     "Other"
   ],
+  "icon": "images/icon.png",
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
