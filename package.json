@@ -2,7 +2,7 @@
   "name": "palatte",
   "displayName": "color palatte generator",
   "description": "generate palattes using single shades",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "pratikkodape",
   "repository": {
     "type": "git",
