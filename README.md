@@ -7,7 +7,7 @@ A **Visual Studio Code** extension that generates color palettes based on a user
 <!-- ![Color Palette Preview](assets/color-palette-generation.png)
  -->
 
-## [![Watch the Video](http://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](http://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+<!-- ## [![Watch the Video](http://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](http://www.youtube.com/watch?v=YOUR_VIDEO_ID) -->
 
 ## Features
 
