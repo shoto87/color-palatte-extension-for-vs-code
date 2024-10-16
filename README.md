@@ -4,7 +4,7 @@
 
 A **Visual Studio Code** extension that generates color palettes based on a user-defined base color. The extension allows you to input a color name or hex code and provides 5 shades for each category: Modern, Classic, Vibrant, Old School, and Vintage.
 
-![Color Palette Preview](assets/color-palette-preview.png)
+![Color Palette Preview](assets/color-palette-generation.png)
 
 ---
 
@@ -46,10 +46,10 @@ A **Visual Studio Code** extension that generates color palettes based on a user
 - **Input:** `#64af6a`
 - **Output:**
   - **Modern:** ![#8bd5a0](https://via.placeholder.com/15/8bd5a0/000000?text=+) `#8bd5a0`
-  - **Classic:** ![#4cae4a](https://via.placeholder.com/15/4cae4a/000000?text=+) `#4cae4a`
-  - **Vibrant:** ![#6bdf68](https://via.placeholder.com/15/6bdf68/000000?text=+) `#6bdf68`
+  - **Classic:** ![#337f3e](https://via.placeholder.com/15/337f3e/000000?text=+) `#337f3e`
+  - **Vibrant:** ![#00ba2e](https://via.placeholder.com/15/00ba2e/000000?text=+) `#00ba2e`
   - **Old School:** ![#3f7d3c](https://via.placeholder.com/15/3f7d3c/000000?text=+) `#3f7d3c`
-  - **Vintage:** ![#9fbd99](https://via.placeholder.com/15/9fbd99/000000?text=+) `#9fbd99`
+  - **Vintage:** ![#64af77](https://via.placeholder.com/15/64af77/000000?text=+) `#64af77`
 
 ---
 
