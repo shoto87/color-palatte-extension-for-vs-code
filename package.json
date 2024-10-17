@@ -1,8 +1,8 @@
 {
-  "name": "palette",
-  "displayName": "colour palette generator",
+  "name": "palatte",
+  "displayName": "color palettes generator",
   "description": "generate palettes using single shades",
-  "version": "0.1.6",
+  "version": "0.1.5",
   "publisher": "pratikkodape",
   "repository": {
     "type": "git",
