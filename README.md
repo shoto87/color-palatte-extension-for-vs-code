@@ -57,11 +57,14 @@ A **Visual Studio Code** extension that generates color palettes based on a user
 
 <!-- ![Color Palette Generation](assets/color-palette-generation.png) -->
 
-- **Steps:**
-- **step 1 :** ![Color Palette Generation](assets/step1.png)
-- **step 2 :** ![Color Palette Generation](assets/step2.png)
-- **step 3 :** ![Color Palette Generation](assets/step3.png)
-- **step 4 :** ![Color Palette Generation](assets/step4.png)
+- **step 1 :**
+  ![Color Palette Generation](assets/step1.png)
+- **step 2 :**
+  ![Color Palette Generation](assets/step2.png)
+- **step 3 :**
+  ![Color Palette Generation](assets/step3.png)
+- **step 4 :**
+  ![Color Palette Generation](assets/step4.png)
 
 ---
 
