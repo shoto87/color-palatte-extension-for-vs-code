@@ -93,7 +93,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Stay Connected
 
-- **GitHub:** [Your GitHub Profile](https://github.com/shoto87)
-- **Twitter:** [@YourTwitterHandle](https://x.com/shoto87665)
+- **GitHub:** [see me on GitHub](https://github.com/shoto87)
+- **Twitter:** [for contact ](https://x.com/shoto87665)
 
 ---
