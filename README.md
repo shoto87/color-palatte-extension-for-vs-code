@@ -66,11 +66,9 @@ A **Visual Studio Code** extension that generates color palettes based on a user
 
 ---
 
-<!-- ## Video Tutorial -->
+## Video Tutorial
 
-## [![Watch the Video](https://youtu.be/b348ScRqhwQ?si=EIrgQblcOAkcAIZm)](https://youtu.be/b348ScRqhwQ?si=EIrgQblcOAkcAIZm)
-
----
+[![Watch the Video](https://img.youtube.com/vi/b348ScRqhwQ/0.jpg)](https://youtu.be/b348ScRqhwQ?si=EIrgQblcOAkcAIZm)
 
 ## Contributions
 
